@@ -1,6 +1,6 @@
 // オールウルフのオフライン対応。ページは「まずネット、だめなら保存分」で更新を拾い、
 // アイコンやフォントは「保存分があればそれ」で速く開く。
-const CACHE = 'allwolf-202610301222';
+const CACHE = 'allwolf-202610301236';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
